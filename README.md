@@ -15,8 +15,8 @@ Given a text corpus, the script extracts the most important keywords and tries t
 - Experimented with yake and Rake-NLTK but wasn't satisfied with them.
 
 #### wiki:
-- Returns the content from Wikipedia based on the given keyword/word. I'm using a hacky way of finding the closest keyword if the original keywords do not exist on Wikipedia by using `wikipedia.search()` to verify.
-- Request is sent to `api.wikimedia.org/core/v1/wikipedia/en/search/page` and the content within the paragraph tag is extracted via BeautifulSoup and cleaned with regex. The number of paragraphs to be included can be specified.
+- Returns the content from Wikipedia based on the given keyword/word. I'm using a hacky way of finding the closest keyword if the original keywords do not exist on Wikipedia by using `wikipedia.search()` and `api.wikimedia.org/core/v1/wikipedia/en/search/page` to verify.
+- Request is sent to `en.wikipedia.org/wiki/{MATCHED_KEYWORD}`  and the content within the paragraph tag is extracted via BeautifulSoup and cleaned with regex. The number of paragraphs to be included can be specified.
 
 #### get_details:
 - Combines `get_keywords` and `wiki` methods to return a dictionary of multiple keywords and their corresponding extracted content.
