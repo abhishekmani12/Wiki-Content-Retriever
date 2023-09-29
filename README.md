@@ -1,6 +1,6 @@
 # Wiki-Content-Retriever
 
-Given a text corpus, the script extracts the most important keywords and tries to retrieve content from wikipedia for each keyword. I fthe exact keywords is not present in wikipedia's search result then the next closest keyword is searched for and the content is retrieved.
+Given a text corpus, the script extracts the most important keywords and tries to retrieve content from wikipedia for each keyword. If the exact keywords is not present in wikipedia's search result then the next closest keyword is searched for and the content is retrieved.
 
 - This script was developed as part of my ongoing project of building a local GPT powered study tool. Since wikiapi is a bit buggy and mediawiki is too confusing, I wanted a tool that can give me the paragraph content easily. 
 
