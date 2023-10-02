@@ -87,3 +87,6 @@ Fraser not found. Redirecting to FRASER
   ' Thai',
   'Fraser'})
 ```
+
+## Usecase:
+Can be used for general information provision, fact checking or to even create a large knowledge base with respect to the provided text, in turn creating datasets for training.
