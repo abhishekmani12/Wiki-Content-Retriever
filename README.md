@@ -87,6 +87,7 @@ Fraser not found. Redirecting to FRASER
   ' Thai',
   'Fraser'})
 ```
+- Here, `limit=3`. It can be increased to include the entire content present on wikipedia
 
 ## Usecase:
 Can be used for general information provision, fact checking or to even create a large knowledge base with respect to the provided text, in turn creating datasets for training.
