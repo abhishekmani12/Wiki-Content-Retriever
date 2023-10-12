@@ -7,11 +7,11 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 #!python -m spacy download en_core_web_sm #Execute on first run
-
+#pip install en_core_sci_lg #Provided scispacy is installed and imported
 number_of_results = 1
 
 headers = {
-    'User-Agent': 'Local-Mini-GPT'
+    'User-Agent': 'Local-Mini-GPT' #change accordingly
 }
 
 base_url = 'https://api.wikimedia.org/core/v1/wikipedia/'
