@@ -8,6 +8,7 @@ Given a text corpus, the script extracts the most important keywords and tries t
 - `wikipedia 1.4.0`
 - `spacy 3.6.1`
 - `tqdm 4.66.1`
+- `beautifulsoup4 4.12.2`
 
 ## Methods:
 #### get_keywords:
